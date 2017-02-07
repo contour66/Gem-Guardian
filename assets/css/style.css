@@ -1,0 +1,58 @@
+body {
+background-image: url("../images/bg1.png");
+}
+
+
+
+.text{ background-color: white;
+	border: 3px black solid;
+	text-align: center;
+	margin: 5px;
+	max-width: 300px
+	
+	}
+
+#jewels {
+	margin-left: 100px;
+	height: 100px;
+	background-color: white;
+	max-width: 500px
+}
+
+#red {
+	
+	background-image: url("../images/red.jpg");
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;
+	margin-left: 10px;
+
+}
+
+
+#green{
+	
+	background-image: url("../images/green.jpg");
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;
+}
+
+#blue{
+	
+	background-image: url("../images/blue.jpg");
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	margin-right: 20px;
+}
+
+#gold{
+	background-image: url("../images/gold.jpg");
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+}
+
