@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Jewel Game</title>
+	<link href="https://fonts.googleapis.com/css?family=Cantarell|Orbitron" rel="stylesheet">
 	 <link rel ="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<script src= "https://code.jquery.com/jquery-3.1.1.min.js"></script>
@@ -11,84 +12,90 @@
 </head>
 <body>
 	<div class="container">
+		
+		
+
+		<div class="row">
 			<div class="col-md-2"></div>
   			<div class="col-md-8" id="main-box" >
 				
-				<!--  id="main-box" -->
-				<!-- <img src="assets/images/" class="logo"> --> 
-
-				<!-- <div class="container" >  -->
-					<!-- <div id="magicNumber">
-					</div> 
-					 -->
-					<!-- <div class="row" id="jewels">
-
-						<div class="col-md-3" id="red"></div>
-						<div class="col-md-3" id="green"></div>
-						<div class="col-md-3" id="blue"></div>
-						<div class="col-md-3" id="gold"></div>
+				<div class="row">
+					<!-- <div class="col-md-1"></div> -->
+					<div class="col-md-12">
 						
-					</div> -->
-				<!-- </div> -->
+						<img src="assets/images/gemlogo.png" alt="Gem Guardian" id="logo">
+					<!-- <div class="col-md-1"></div> -->
+
+
+					</div>
+				</div>
+				<div class="row" >
+					<div class="col-md-12">
+						<p id="rules">Gem Guardian is a game of skill and memory! </br> Click any gem to find it's value. </br>The goal is to match the Total Score to the Magic Number.</p>
+					</div>
 				<div class="row" >
 					<div class="col-md-3"></div>
 					<div class="col-md-6">
 						<div class="text"> 
 			 				Magic Number	
-			
-							<span id ="magicNumber"></span>
+			 				</br>
+							<span class="numbers" id ="magicNumber"></span>
+							</br>
+
 						</div>
 					</div>
 					<div class="col-md-3"></div>
 				</div>
 				
-				<div class="row" id="jewels">
-
-						<button class="col-md-3 gem-button" id="red"></button>
-						<button class="col-md-3 gem-button" id="green"></button>
-						<button class="col-md-3 gem-button" id="blue"></button>
-						<button class="col-md-3 gem-button" id="gold"></button>
-						
-				</div>
-
 				<div class="row" >
-					<div class="col-md-3"></div>
+					<div class="col-md-3" ></div>
 					<div class="col-md-6">
 						<div class="text" id="newNumber"> 
-			 				Your Number	
-			
-							<span id ="userNumber"></span>
+			 				Total Score
+							</br>
+							<span class= numbers id ="userNumber"></span>
+							</br>
 						</div>
 					</div>
 				</div>
 
+				<div class="row" id="jewels">
+
+						<button class="col-md-3 col-sm-push-3 gem-button" id="red"></button>
+						<button class="col-md-3 col-sm-push-3 gem-button" id="green"></button>
+						<button class="col-md-3 col-sm-push-3 gem-button" id="blue"></button>
+						<button class="col-md-3 col-sm-push-3 gem-button" id="gold"></button>
+						
+				</div>
+
+			
 				<div class="row" >
-					<div class="col-md-3"></div>
+					<!-- <div class="col-md-3"></div> -->
 					<div class="col-md-6">
 						<div class="text">
 							Wins:
 		
-						<span id ="wins"> 0 </span>
+						<span class= "numbers" id ="wins"> 0 </span>
 						</div>
 					</div>
-				</div>
+				
 
-				<div class="row" >
-					<div class="col-md-3"></div>
+			<!-- 	<div class="row" >
+					<div class="col-md-3"></div> -->
 					<div class="col-md-6">
 						<div class="text"> 
 							Losses: 
 
-						<span id ="losses">0</span>
+						<span class= "numbers" id ="losses">0</span>
 						</div>	
-		
+				</div>
 			
 				
 			
 			</div>
 			<div class="col-md-2"></div>
 
-
+		</div>
 	</div>
 
 </body>

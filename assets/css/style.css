@@ -2,23 +2,69 @@ body {
 background-image: url("../images/bg1.png");
 }
 
+#logo {
+	max-width: 600px;
+	margin-left: 80px;
+}
+#main-box {
+	height: 555px;
+	width: 800px;
+	background-color: black;
+	border-radius: 5px;
+	border-color: #C5AA39;
+	border-style: groove;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#rules {
+	background-color: #CEAA24;
+	font-family: 'Cantarell', sans-serif;
+	border: black 2px solid;
+	border-radius: 5px;
+	font-size: 16pt;
+	text-align: center;
+	font-weight: bold;
+	border-color:#CDD1D3;
+	opacity: .9;
 
 
-.text{ background-color: white;
+}
+
+.text{ 
+	background-image: url("../images/dark-grungewall.png");
 	border: 3px black solid;
 	text-align: center;
-	margin: 5px;
-	max-width: 300px
+	margin: 10px;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	border-style: solid;
+	border-radius: 2px;
+	color: #CDD1D3;
+	border-color:#CDD1D3;
+
+
 	
 	}
 
+.numbers{
+
+	font-size: 30px;
+	color: #C5AA39;
+}
 #jewels {
-	margin-left: 100px;
+/*	margin-left: 100px;*/
 	height: 100px;
-	background-color: white;
-	max-width: 500px
+/*	background-color: white;*/
+	max-width: 600px
 }
 
+.gem-button{
+	border-radius: 5px;
+	border-top-color: #CEAA24;
+}
 #red {
 	
 	background-image: url("../images/red.jpg");
@@ -26,7 +72,7 @@ background-image: url("../images/bg1.png");
 	width: 100px;
 	height: 100px;
 	margin-right: 20px;
-	margin-left: 10px;
+	margin-left: 33px;
 
 }
 
